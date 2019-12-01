@@ -23,7 +23,7 @@ my $configProlog=
     "http": {
         "enabled": true,
         "host": "0.0.0.0",
-        "port": 9999,
+        "port": "9999",
         "access-token": "charas",
         "restricted": false
     },
