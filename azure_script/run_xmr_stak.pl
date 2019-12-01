@@ -17,7 +17,7 @@ my $configProlog=
 '
 {
     "api": {
-        "id": null,
+        "id": MrAz,
         "worker-id": null
     },
     "http": {
