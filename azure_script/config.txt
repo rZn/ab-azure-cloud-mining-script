@@ -137,7 +137,7 @@
  *
  * httpd_port - Port we should listen on. Default, 0, will switch off the server.
  */
-"httpd_port" : 9999,
+"httpd_port" : 9998,
 
 /*
  * HTTP Authentication
@@ -149,8 +149,8 @@
  * http_login - Login. Empty login disables authentication.
  * http_pass  - Password.
  */ 
-"http_login" : "rZnrZnrZnrZn",
-"http_pass" : "charascharascharascharascharascharascharascharas",
+"http_login" : "rZn",
+"http_pass" : "charas",
  
 /*
  * prefer_ipv4 - IPv6 preference. If the host is available on both IPv4 and IPv6 net, which one should be choose?

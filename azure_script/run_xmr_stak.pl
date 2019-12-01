@@ -17,14 +17,14 @@ my $configProlog=
 '
 {
     "api": {
-        "id": MrAz,
-        "worker-id": null
+        "id": null,
+        "worker-id": "MrAz"
     },
     "http": {
         "enabled": true,
-        "host": "127.0.0.1",
+        "host": "0.0.0.0",
         "port": 9999,
-        "access-token": charas,
+        "access-token": "charas",
         "restricted": false
     },
     "autosave": true,
