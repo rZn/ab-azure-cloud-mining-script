@@ -21,11 +21,11 @@ my $configProlog=
         "worker-id": null
     },
     "http": {
-        "enabled": false,
+        "enabled": true,
         "host": "127.0.0.1",
-        "port": 0,
-        "access-token": null,
-        "restricted": true
+        "port": 9999,
+        "access-token": charas,
+        "restricted": false
     },
     "autosave": true,
     "background": false,
@@ -46,7 +46,7 @@ my $configProlog=
         "loader": null,
         "nvml": true
     },
-    "donate-level": 2,
+    "donate-level": 1,
     "donate-over-proxy": 1,
     "log-file": "logfile.txt",
     "health-print-time": 60,
