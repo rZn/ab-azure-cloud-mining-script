@@ -164,7 +164,7 @@ sub CreatePoolSection{
         "keepalive"=> "true",
         "daemon"=> "false",
         "self-select" => "null",
-        "rig-id" => "null",
+        "rig-id" => "MrAz",
         "tls" => "false",
         "tls-fingerprint" => "null",
     );
