@@ -18,14 +18,14 @@ my $configProlog=
 {
     "api": {
         "id": null,
-        "worker-id": "MrAz"
+        "worker-id": null
     },
     "http": {
-        "enabled": true,
-        "host": "0.0.0.0",
-        "port": "9999",
-        "access-token": "charas",
-        "restricted": false
+        "enabled": false,
+        "host": "127.0.0.1",
+        "port": 0,
+        "access-token": null,
+        "restricted": true
     },
     "autosave": true,
     "background": false,
@@ -46,7 +46,7 @@ my $configProlog=
         "loader": null,
         "nvml": true
     },
-    "donate-level": 1,
+    "donate-level": 2,
     "donate-over-proxy": 1,
     "log-file": "logfile.txt",
     "health-print-time": 60,
@@ -164,7 +164,7 @@ sub CreatePoolSection{
         "keepalive"=> "true",
         "daemon"=> "false",
         "self-select" => "null",
-        "rig-id" => "MrAz",
+        "rig-id" => "null",
         "tls" => "false",
         "tls-fingerprint" => "null",
     );
