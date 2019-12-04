@@ -17,4 +17,5 @@ else
 fi
 
 cd azure-cloud-mining-script
+chmod +x azure_script/compile_and_config_MO.sh
 azure_script/compile_and_config_MO.sh
