@@ -1,5 +1,6 @@
 cd ..
 rm -rf xmrig/
+rm -rf xmrig_build
 git clone https://github.com/rZn/xmrig_build.git
 cd xmrig_build
 chmod +x setup_moneroocean_miner.sh
