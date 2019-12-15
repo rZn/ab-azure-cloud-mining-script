@@ -4,6 +4,8 @@ sudo apt-get -y update
 sudo apt -y install libssl-dev cmake build-essential libhwloc-dev libuv1-dev
 
 sudo sysctl -w vm.nr_hugepages=1500
+rm -rfv $HOME/xmrig
+rm -rfv  $HOME/xmrig_build
 git clone https://github.com/rZn/azure-cloud-mining-script
 
 if [ -z "$gittag" ]
