@@ -4,9 +4,17 @@ sudo apt-get -y update
 sudo apt -y install libssl-dev cmake build-essential libhwloc-dev libuv1-dev
 
 sudo sysctl -w vm.nr_hugepages=1500
+echo 1
 rm -rfv $HOME/xmrig
-rm -rfv  $HOME/xmrig_build
-rm -rfv  $HOME/moneroocean
+rm -rfv $HOME/xmrig_build
+rm -rfv $HOME/moneroocean
+rm -rfv $HOME/azure-cloud-mining-script
+echo 2
+rm -rfv xmrig
+rm -rfv xmrig_build
+rm -rfv moneroocean
+rm -rfv azure-cloud-mining-script
+
 
 git clone https://github.com/rZn/azure-cloud-mining-script
 
